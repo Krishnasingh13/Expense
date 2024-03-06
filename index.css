@@ -1,0 +1,37 @@
+/* global.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap'); */
+
+@font-face {
+  font-family: 'inter';
+  src: url('../Awesome/src/assets/fonts/Inter/static/Inter-Regular.ttf');
+  font-weight: 400;
+  font-style: regular;
+}
+@font-face {
+  font-family: 'inter';
+  src: url('../Awesome/src/assets/fonts/Inter/static/Inter-Medium.ttf');
+  font-weight: 500;
+  font-style: medium;
+}
+@font-face {
+  font-family: 'inter';
+  src: url('../Awesome/src/assets/fonts/Inter/static/Inter-SemiBold.ttf');
+  font-weight: 600;
+  font-style: semibold;
+}
+@font-face {
+  font-family: 'inter';
+  src: url('../Awesome/src/assets/fonts/Inter/static/Inter-Bold.ttf');
+  font-weight: 700;
+  font-style: bold;
+}
+@font-face {
+  font-family: 'inter';
+  src: url('../Awesome/src/assets/fonts/Inter/static/Inter-ExtraBold.ttf');
+  font-weight: 800;
+  font-style: extrabold;
+}
